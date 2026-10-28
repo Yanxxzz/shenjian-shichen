@@ -1,0 +1,4 @@
+interface:
+  display_name: "神剑的使臣"
+  short_description: "高程与 OOP 作业规则检查、GBK 编码和对拍，Linux 验证仅限 OOP"
+  default_prompt: "使用 $gcsjsb 处理这次高程或 OOP 作业，先确认课程与题目限制，再实现并验证。"

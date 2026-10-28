@@ -1,0 +1,14 @@
+{
+  "course": "gaocheng",
+  "workspaceRoot": "../.work/build/gaocheng",
+  "sources": ["hello.cpp"],
+  "outputBaseName": "hello",
+  "selectedCompilers": ["msvc", "mingw"],
+  "testCases": [
+    { "id": "hello", "name": "hello", "input": "", "expectedOutput": "hello\n", "enabled": true }
+  ],
+  "timeoutMs": 5000,
+  "strictDiff": true,
+  "normalizeNewlines": true,
+  "stripTrailingNewlines": false
+}

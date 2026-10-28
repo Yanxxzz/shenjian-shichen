@@ -1,0 +1,22 @@
+{
+  "course": "oop",
+  "workspaceRoot": "../.work/build/oop",
+  "sources": ["hello.cpp"],
+  "outputBaseName": "hello",
+  "selectedCompilers": ["msvc", "mingw", "linux"],
+  "testCases": [
+    { "id": "hello", "name": "hello", "input": "", "expectedOutput": "hello\n", "enabled": true }
+  ],
+  "timeoutMs": 5000,
+  "strictDiff": true,
+  "normalizeNewlines": true,
+  "stripTrailingNewlines": false,
+  "sshConfig": {
+    "host": "oop.example.edu",
+    "port": 22,
+    "studentId": "YOUR_STUDENT_ID",
+    "privateKeyPath": "YOUR_PRIVATE_KEY_PATH",
+    "remoteDir": "~/sjoop_tmp",
+    "flags": []
+  }
+}
